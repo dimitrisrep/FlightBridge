@@ -1,0 +1,24 @@
+{"id": "test-refund-0", "text": "Please refund the cost of the reservation", "intent": "REFUND", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-refund-1", "text": "I would prefer a reimbursement", "intent": "REFUND", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-refund-2", "text": "Επιστρέψτε μου τα χρήματα της κράτησης", "intent": "REFUND", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-refund-3", "text": "Θα προτιμούσα επιστροφή χρημάτων", "intent": "REFUND", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-rebooking-0", "text": "Could you rebook us on a later flight?", "intent": "REBOOKING", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-rebooking-1", "text": "I wish to switch my departure", "intent": "REBOOKING", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-rebooking-2", "text": "Μπορώ να αλλάξω το εισιτήριο για μεθαύριο;", "intent": "REBOOKING", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-rebooking-3", "text": "Θα προτιμούσα μια διαφορετική πτήση", "intent": "REBOOKING", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-options-0", "text": "Which options are open to me now?", "intent": "OPTIONS", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-options-1", "text": "Could you outline the available choices?", "intent": "OPTIONS", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-options-2", "text": "Τι επιλογές έχω μετά την αλλαγή;", "intent": "OPTIONS", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-options-3", "text": "Μπορείτε να εξηγήσετε τι μπορώ να κάνω;", "intent": "OPTIONS", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-compensation-0", "text": "Am I eligible for delay compensation?", "intent": "COMPENSATION", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-compensation-1", "text": "Where do I submit a compensation request?", "intent": "COMPENSATION", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-compensation-2", "text": "Πού υποβάλλω αίτημα αποζημίωσης;", "intent": "COMPENSATION", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-compensation-3", "text": "Θα ήθελα αποζημίωση λόγω καθυστέρησης", "intent": "COMPENSATION", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-baggage-0", "text": "One of our suitcases is missing", "intent": "BAGGAGE", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-baggage-1", "text": "My luggage arrived damaged", "intent": "BAGGAGE", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-baggage-2", "text": "Πού μπορώ να δηλώσω χαμένη αποσκευή;", "intent": "BAGGAGE", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-baggage-3", "text": "Μια βαλίτσα μας δεν παραδόθηκε", "intent": "BAGGAGE", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-other-0", "text": "How can I amend my passenger name?", "intent": "OTHER", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-other-1", "text": "Please arrange airport mobility assistance", "intent": "OTHER", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "test-other-2", "text": "Θέλω να διορθώσω το όνομα επιβάτη", "intent": "OTHER", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "test-other-3", "text": "Χρειάζομαι αλλαγή των στοιχείων επικοινωνίας", "intent": "OTHER", "language": "el", "provenance": "authored_synthetic_fixture"}

@@ -1,0 +1,48 @@
+{"id": "train-refund-0", "text": "I want a refund for my flight", "intent": "REFUND", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-refund-1", "text": "Please return the money for my ticket", "intent": "REFUND", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-refund-2", "text": "Can you reimburse my booking?", "intent": "REFUND", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-refund-3", "text": "I need my money back", "intent": "REFUND", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-refund-4", "text": "Θέλω επιστροφή χρημάτων για την πτήση", "intent": "REFUND", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-refund-5", "text": "Θα ήθελα τα λεφτά μου πίσω", "intent": "REFUND", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-refund-6", "text": "Μπορείτε να μου επιστρέψετε τα χρήματα;", "intent": "REFUND", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-refund-7", "text": "Ζητάω επιστροφή για το εισιτήριο", "intent": "REFUND", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-0", "text": "I want to rebook my flight", "intent": "REBOOKING", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-1", "text": "Please move my booking to another departure", "intent": "REBOOKING", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-2", "text": "Can I change my ticket?", "intent": "REBOOKING", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-3", "text": "I would like a different flight tomorrow", "intent": "REBOOKING", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-4", "text": "Θέλω να αλλάξω την πτήση μου", "intent": "REBOOKING", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-5", "text": "Χρειάζομαι επανέκδοση εισιτηρίου", "intent": "REBOOKING", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-6", "text": "Θα ήθελα άλλη πτήση αύριο", "intent": "REBOOKING", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-rebooking-7", "text": "Μπορείτε να αλλάξετε την κράτηση;", "intent": "REBOOKING", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-0", "text": "What are my available options?", "intent": "OPTIONS", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-1", "text": "What can I do about this flight?", "intent": "OPTIONS", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-2", "text": "Please explain my choices", "intent": "OPTIONS", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-3", "text": "What am I entitled to after a schedule change?", "intent": "OPTIONS", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-4", "text": "Ποιες είναι οι επιλογές μου;", "intent": "OPTIONS", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-5", "text": "Τι μπορώ να κάνω με την πτήση;", "intent": "OPTIONS", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-6", "text": "Θα ήθελα να μάθω τι δικαιούμαι", "intent": "OPTIONS", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-options-7", "text": "Εξηγήστε μου τις διαθέσιμες επιλογές", "intent": "OPTIONS", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-0", "text": "I want compensation for the delay", "intent": "COMPENSATION", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-1", "text": "How do I claim compensation?", "intent": "COMPENSATION", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-2", "text": "Can the airline compensate me?", "intent": "COMPENSATION", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-3", "text": "Please explain compensation claims", "intent": "COMPENSATION", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-4", "text": "Ζητάω αποζημίωση για την καθυστέρηση", "intent": "COMPENSATION", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-5", "text": "Πώς μπορώ να πάρω αποζημίωση;", "intent": "COMPENSATION", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-6", "text": "Δικαιούμαι χρηματική αποζημίωση;", "intent": "COMPENSATION", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-compensation-7", "text": "Θέλω βοήθεια για αίτηση αποζημίωσης", "intent": "COMPENSATION", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-0", "text": "My suitcase has not arrived", "intent": "BAGGAGE", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-1", "text": "Where is my lost baggage?", "intent": "BAGGAGE", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-2", "text": "I need help with damaged luggage", "intent": "BAGGAGE", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-3", "text": "How much baggage may I bring?", "intent": "BAGGAGE", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-4", "text": "Χάθηκε η βαλίτσα μου", "intent": "BAGGAGE", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-5", "text": "Οι αποσκευές μου δεν έφτασαν", "intent": "BAGGAGE", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-6", "text": "Θέλω βοήθεια με τις αποσκευές", "intent": "BAGGAGE", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-baggage-7", "text": "Η βαλίτσα μου έφτασε σπασμένη", "intent": "BAGGAGE", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-0", "text": "Please correct the spelling of my name", "intent": "OTHER", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-1", "text": "I need wheelchair assistance", "intent": "OTHER", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-2", "text": "How do I check in online?", "intent": "OTHER", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-3", "text": "Please update my contact email", "intent": "OTHER", "language": "en", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-4", "text": "Θέλω διόρθωση ονόματος", "intent": "OTHER", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-5", "text": "Χρειάζομαι βοήθεια με το check in", "intent": "OTHER", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-6", "text": "Μπορείτε να αλλάξετε το email μου;", "intent": "OTHER", "language": "el", "provenance": "authored_synthetic_fixture"}
+{"id": "train-other-7", "text": "Χρειάζομαι αναπηρικό αμαξίδιο στο αεροδρόμιο", "intent": "OTHER", "language": "el", "provenance": "authored_synthetic_fixture"}

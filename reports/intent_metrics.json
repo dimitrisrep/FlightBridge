@@ -1,0 +1,59 @@
+{
+  "dataset_type": "authored synthetic bilingual fixtures; not a real-world benchmark",
+  "training_sha256": "bb46bbfc006fea7824afa635ff969e0b0bee16190be830fd18654228420478f1",
+  "evaluation_sha256": "3b2a06a0cc8fe21ec74fd6b49c9e5ee7873df864ff762e372ae6c03ccab39b15",
+  "training_rows": 48,
+  "evaluation_rows": 24,
+  "macro_f1": 0.9153439153439152,
+  "classification_report": {
+    "BAGGAGE": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "COMPENSATION": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "OPTIONS": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "OTHER": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "REBOOKING": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "REFUND": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "accuracy": 0.9166666666666666,
+    "macro avg": {
+      "precision": 0.9333333333333332,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9153439153439152,
+      "support": 24.0
+    },
+    "weighted avg": {
+      "precision": 0.9333333333333332,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9153439153439152,
+      "support": 24.0
+    }
+  }
+}

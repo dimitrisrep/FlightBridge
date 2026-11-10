@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "dataset_sha256": "fb113bb24195feb3911b7beb13087a6c751ee9c277ef192a62039321090c8c82",
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "seed": 42,
+  "data_audit": {
+    "input_rows": 181,
+    "retained_rows": 175,
+    "excluded_rows": [
+      {
+        "case_id": 7,
+        "reason": "inconsistent_or_missing_duration"
+      },
+      {
+        "case_id": 13,
+        "reason": "inconsistent_or_missing_duration"
+      },
+      {
+        "case_id": 35,
+        "reason": "inconsistent_or_missing_duration"
+      },
+      {
+        "case_id": 72,
+        "reason": "inconsistent_or_missing_duration"
+      },
+      {
+        "case_id": 141,
+        "reason": "inconsistent_or_missing_duration"
+      },
+      {
+        "case_id": 145,
+        "reason": "inconsistent_or_missing_duration"
+      }
+    ],
+    "label_audit_counts": {
+      "INFO": 38,
+      "MISSING": 2,
+      "REVIEW": 1,
+      "FILLED": 1,
+      "CONFLICT": 1
+    }
+  },
+  "protocol": "25% grouped holdout; model selection on development-only grouped CV macro F1",
+  "groups": "identical model-input combinations",
+  "group_overlap": 0,
+  "development_case_ids": [
+    85,
+    86,
+    87,
+    88,
+    90,
+    91,
+    92,
+    127,
+    128,
+    131,
+    132,
+    133,
+    94,
+    95,
+    96,
+    98,
+    99,
+    100,
+    103,
+    114,
+    116,
+    117,
+    118,
+    119,
+    121,
+    122,
+    123,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    104,
+    105,
+    106,
+    108,
+    109,
+    110,
+    111,
+    113,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    20,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    32,
+    33,
+    34,
+    36,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    203,
+    54,
+    75,
+    76,
+    79,
+    80,
+    81,
+    83,
+    84,
+    57,
+    59,
+    69,
+    70,
+    71,
+    73,
+    74,
+    55,
+    56,
+    135,
+    137,
+    138,
+    205,
+    207,
+    208,
+    139,
+    142,
+    143,
+    146,
+    174,
+    176,
+    178,
+    179,
+    181,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    196,
+    198,
+    200,
+    202,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217
+  ],
+  "holdout_case_ids": [
+    89,
+    93,
+    124,
+    125,
+    126,
+    129,
+    130,
+    97,
+    101,
+    102,
+    1,
+    115,
+    120,
+    5,
+    9,
+    107,
+    112,
+    18,
+    19,
+    22,
+    23,
+    30,
+    31,
+    38,
+    44,
+    45,
+    77,
+    78,
+    82,
+    58,
+    134,
+    136,
+    204,
+    206,
+    140,
+    144,
+    175,
+    177,
+    180,
+    182,
+    195,
+    197,
+    199,
+    201
+  ],
+  "targets": {
+    "full_refund_allowed": {
+      "selected_model": "logistic_regression",
+      "development_rows": 130,
+      "holdout_rows": 44,
+      "development_classes": {
+        "YES": 88,
+        "NO": 42
+      },
+      "holdout_classes": {
+        "YES": 23,
+        "NO": 21
+      },
+      "cv": {
+        "majority_baseline": {
+          "macro_f1_mean": 0.4036536536536537,
+          "macro_f1_std": 0.001238675542619082,
+          "folds": [
+            0.4027777777777778,
+            0.4027777777777778,
+            0.40540540540540543
+          ]
+        },
+        "logistic_regression": {
+          "macro_f1_mean": 0.8259618954794394,
+          "macro_f1_std": 0.07869875113772343,
+          "folds": [
+            0.7171052631578947,
+            0.900462962962963,
+            0.8603174603174604
+          ]
+        },
+        "random_forest": {
+          "macro_f1_mean": 0.8073375568551007,
+          "macro_f1_std": 0.07488341647306124,
+          "folds": [
+            0.7171052631578947,
+            0.900462962962963,
+            0.8044444444444444
+          ]
+        },
+        "mlp": {
+          "macro_f1_mean": 0.81932615995116,
+          "macro_f1_std": 0.017237699369492477,
+          "folds": [
+            0.7952380952380952,
+            0.8346153846153846,
+            0.828125
+          ]
+        }
+      },
+      "holdout": {
+        "accuracy": 0.6136363636363636,
+        "balanced_accuracy": 0.6055900621118012,
+        "macro_f1": 0.596765498652291,
+        "baseline_macro_f1": 0.34328358208955223,
+        "brier_score": 0.213008994628231,
+        "labels": [
+          "NO",
+          "YES"
+        ],
+        "confusion_matrix": [
+          [
+            9,
+            12
+          ],
+          [
+            5,
+            18
+          ]
+        ],
+        "classification_report": {
+          "NO": {
+            "precision": 0.6428571428571429,
+            "recall": 0.42857142857142855,
+            "f1-score": 0.5142857142857142,
+            "support": 21.0
+          },
+          "YES": {
+            "precision": 0.6,
+            "recall": 0.782608695652174,
+            "f1-score": 0.6792452830188679,
+            "support": 23.0
+          },
+          "accuracy": 0.6136363636363636,
+          "macro avg": {
+            "precision": 0.6214285714285714,
+            "recall": 0.6055900621118012,
+            "f1-score": 0.596765498652291,
+            "support": 44.0
+          },
+          "weighted avg": {
+            "precision": 0.6204545454545455,
+            "recall": 0.6136363636363636,
+            "f1-score": 0.6005145797598627,
+            "support": 44.0
+          }
+        }
+      }
+    },
+    "rebooking_allowed": {
+      "selected_model": "random_forest",
+      "development_rows": 130,
+      "holdout_rows": 43,
+      "development_classes": {
+        "YES": 92,
+        "NO": 38
+      },
+      "holdout_classes": {
+        "YES": 29,
+        "NO": 14
+      },
+      "cv": {
+        "majority_baseline": {
+          "macro_f1_mean": 0.41440371878728044,
+          "macro_f1_std": 0.003336640296885872,
+          "folds": [
+            0.4189189189189189,
+            0.41333333333333333,
+            0.410958904109589
+          ]
+        },
+        "logistic_regression": {
+          "macro_f1_mean": 0.795498010865709,
+          "macro_f1_std": 0.06016610902159203,
+          "folds": [
+            0.7225806451612904,
+            0.7939799331103679,
+            0.8699334543254689
+          ]
+        },
+        "random_forest": {
+          "macro_f1_mean": 0.8571959487053826,
+          "macro_f1_std": 0.05549182096357558,
+          "folds": [
+            0.7787307032590052,
+            0.8952380952380952,
+            0.8976190476190476
+          ]
+        },
+        "mlp": {
+          "macro_f1_mean": 0.7520615050706528,
+          "macro_f1_std": 0.0528053228648988,
+          "folds": [
+            0.7110215053763441,
+            0.7185501066098081,
+            0.8266129032258065
+          ]
+        }
+      },
+      "holdout": {
+        "accuracy": 0.5813953488372093,
+        "balanced_accuracy": 0.5788177339901477,
+        "macro_f1": 0.5622171945701357,
+        "baseline_macro_f1": 0.4027777777777778,
+        "brier_score": 0.2126791980131819,
+        "labels": [
+          "NO",
+          "YES"
+        ],
+        "confusion_matrix": [
+          [
+            8,
+            6
+          ],
+          [
+            12,
+            17
+          ]
+        ],
+        "classification_report": {
+          "NO": {
+            "precision": 0.4,
+            "recall": 0.5714285714285714,
+            "f1-score": 0.47058823529411764,
+            "support": 14.0
+          },
+          "YES": {
+            "precision": 0.7391304347826086,
+            "recall": 0.5862068965517241,
+            "f1-score": 0.6538461538461539,
+            "support": 29.0
+          },
+          "accuracy": 0.5813953488372093,
+          "macro avg": {
+            "precision": 0.5695652173913044,
+            "recall": 0.5788177339901477,
+            "f1-score": 0.5622171945701357,
+            "support": 43.0
+          },
+          "weighted avg": {
+            "precision": 0.6287158746208291,
+            "recall": 0.5813953488372093,
+            "f1-score": 0.5941807850152584,
+            "support": 43.0
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Small observational dataset with unresolved policy provenance.",
+    "Model scores are uncalibrated, not policy guarantees.",
+    "Grouping prevents exact duplicate leakage, not airline or temporal leakage.",
+    "The holdout must not guide subsequent model or threshold changes."
+  ]
+}

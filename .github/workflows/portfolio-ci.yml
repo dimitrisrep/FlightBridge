@@ -1,0 +1,39 @@
+name: FlightBridge checks
+on:
+  push:
+    paths: ["src/**", "tests/portfolio/**", "data/intents/**", "demo.py", "assets/**", ".streamlit/**", "requirements.lock", "pyproject.toml", ".github/workflows/portfolio-ci.yml"]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: pip install -r requirements.lock
+      - run: pip install --no-deps -e .
+      - run: ruff check src tests/portfolio scripts demo.py
+      - run: pytest
+      - run: flightbridge train-intents
+  interface:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.lock
+      - run: pip install --no-deps -e .
+      - run: pytest tests/portfolio/test_demo.py tests/portfolio/test_presentation.py
+

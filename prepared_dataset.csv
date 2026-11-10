@@ -1,0 +1,182 @@
+﻿case_id,sc_type,delay_minutes,alternative_provided,airline,airline_type,pap_request,solution,rejection_reason,full_refund_allowed,rebooking_allowed,full_refund_allowed_source,rebooking_allowed_source
+85,TR SC,29.0,YES,A3,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+86,MI SC,31.0,YES,A3,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,YES,NO,explicit,explicit_confirmed_by_solution
+87,MI SC,61.0,YES,A3,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+88,MA SC,302.0,YES,A3,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+89,CR SC,0.0,NO,A3,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+90,TR SC,29.0,YES,A3,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+91,MI SC,31.0,YES,A3,LEGACY,REFUND,REFUND,,YES,NO,explicit,explicit
+92,MA SC,302.0,YES,A3,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+93,CR SC,0.0,NO,A3,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+124,TR SC,30.0,YES,AA,LEGACY,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+125,MI SC,50.0,YES,AA,LEGACY,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+126,MI SC,180.0,YES,AA,LEGACY,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+127,MA SC,301.0,YES,AA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+128,CR SC,0.0,NO,AA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+129,TR SC,30.0,YES,AA,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,YES,explicit_confirmed_by_solution,explicit
+130,MI SC,180.0,YES,AA,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,YES,explicit_confirmed_by_solution,explicit
+131,MI SC,182.0,YES,AA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+132,MA SC,301.0,YES,AA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+133,CR SC,0.0,NO,AA,LEGACY,REFUND,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+94,TR SC,29.0,YES,AC,LEGACY,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+95,MI SC,31.0,YES,AC,LEGACY,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+96,MI SC,298.0,YES,AC,LEGACY,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+97,MA SC,303.0,YES,AC,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+98,CR SC,0.0,NO,AC,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+99,TR SC,29.0,YES,AC,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,YES,explicit_confirmed_by_solution,explicit
+100,MI SC,31.0,YES,AC,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,YES,explicit_confirmed_by_solution,explicit
+101,MI SC,182.0,YES,AC,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+102,MA SC,302.0,YES,AC,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+103,CR SC,0.0,NO,AC,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+1,MI SC,135.0,YES,AF,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+114,TR SC,29.0,YES,AF,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+115,MI SC,178.0,YES,AF,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+116,MI SC,181.0,YES,AF,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+117,MA SC,301.0,YES,AF,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+118,CR SC,0.0,NO,AF,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+119,TR SC,29.0,YES,AF,LEGACY,REFUND,REJECTED,,NO,NO,explicit,explicit
+120,MI SC,178.0,YES,AF,LEGACY,REFUND,REJECTED,,NO,NO,explicit,explicit
+121,MI SC,181.0,YES,AF,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+122,MA SC,302.0,YES,AF,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+123,CR SC,0.0,NO,AF,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+2,MI SC,95.0,YES,AF,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+3,MI SC,240.0,YES,AIRASIA,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+4,MA SC,540.0,YES,AIRASIA,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+5,MA SC,330.0,YES,AIRASIA,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+6,CR SC,0.0,NO,AIRASIA,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+7,MA SC,,YES,ANIMAWINGS,LCC,REBOOKING,REFUND,NO AVAIL,YES,YES,explicit,explicit
+8,CR SC,0.0,NO,AUSTRIAN,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+9,MA SC,1440.0,YES,BA,LEGACY,REFUND,REFUND,,YES,,explicit,unknown
+10,MA SC,420.0,YES,CA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+104,TR SC,14.0,YES,CA,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+105,TR SC,16.0,YES,CA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+106,MI SC,32.0,YES,CA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+107,MA SC,302.0,YES,CA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+108,CR SC,0.0,NO,CA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+109,TR SC,14.0,YES,CA,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+110,TR SC,16.0,YES,CA,LEGACY,REFUND,REFUND,,NO,NO,explicit,explicit
+111,MI SC,32.0,YES,CA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+112,MA SC,302.0,YES,CA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+113,CR SC,0.0,NO,CA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+11,MI SC,240.0,YES,CI,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+12,CR SC,0.0,NO,DL,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+13,MI SC,25.0,YES,ETIHAD,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+14,CR SC,0.0,NO,ETIHAD,LEGACY,REBOOKING,REBOOKING,,,YES,unknown,derived_from_solution
+15,MA SC,360.0,YES,EVA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+16,CR SC,0.0,NO,FLYBONDI,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+17,MA SC,1440.0,YES,IBERIA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+18,CR SC,0.0,NO,IBERIA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+19,MA SC,420.0,YES,IBERIA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+20,MI SC,120.0,YES,IBERIA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+21,MA SC,1440.0,YES,IBERIA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+22,CR SC,0.0,NO,IBERIA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+23,CR SC,0.0,NO,IBERIA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+24,CR SC,0.0,NO,ITA,LEGACY,REBOOKING,REJECTED,NO AVAIL,YES,YES,explicit,explicit
+25,CR SC,0.0,NO,ITA,LEGACY,REBOOKING,REJECTED,NO AVAIL,YES,YES,explicit,explicit
+26,CR SC,0.0,NO,ITA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+27,CR SC,0.0,NO,ITA,LEGACY,REBOOKING,REFUND,NO AVAIL,YES,YES,explicit,explicit
+28,MA SC,360.0,YES,ITA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+29,MI SC,60.0,YES,ITA,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,YES,NO,explicit,explicit_confirmed_by_solution
+30,MI SC,170.0,YES,ITA,LEGACY,REBOOKING,REJECTED,SHORT SC,NO,NO,explicit,explicit_confirmed_by_solution
+31,MI SC,170.0,YES,ITA,LEGACY,REFUND,REJECTED,SHORT SC,NO,NO,explicit_confirmed_by_solution,explicit
+32,CR SC,,YES,J2,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+33,MI SC,195.0,YES,KLM,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,YES,,explicit,conflict
+34,MI SC,40.0,YES,KLM,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,YES,explicit_confirmed_by_solution,explicit
+35,MA SC,180.0,YES,LATAM,LEGACY,REBOOKING,REFUND,,YES,YES,explicit,explicit
+36,MI SC,70.0,YES,LATAM,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+37,TR SC,25.0,YES,LATAM,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+38,MI SC,32.0,YES,LATAM,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+39,MA SC,303.0,YES,LATAM,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+40,TR SC,20.0,YES,MYANMAR AIRWAYS,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+41,TR SC,29.0,YES,NZ,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+42,MI SC,158.0,YES,QR,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+43,MI SC,161.0,YES,QR,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+44,MA SC,360.0,YES,QS,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+45,MI SC,158.0,YES,RYANAIR,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+46,MI SC,161.0,YES,RYANAIR,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+47,MA SC,360.0,YES,SAS,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+48,TR SC,28.0,YES,T'WAY AIR,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+49,MI SC,58.0,YES,TAP,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+50,MI SC,63.0,YES,TAP,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+51,MA SC,301.0,YES,TAP,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+52,MI SC,59.0,YES,TK,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+53,MI SC,63.0,YES,TK,LEGACY,REFUND,REFUND,,YES,NO,explicit,explicit
+203,MI SC,298.0,YES,V7,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,YES,explicit_confirmed_by_solution,explicit
+54,MA SC,301.0,YES,V7,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+75,TR SC,28.0,YES,V7,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+76,TR SC,28.0,YES,V7,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+77,MI SC,118.0,YES,V7,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+78,MI SC,122.0,YES,V7,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+79,MA SC,302.0,YES,V7,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+80,CR SC,0.0,NO,V7,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+81,MI SC,120.0,YES,V7,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+82,MI SC,124.0,YES,V7,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+83,MA SC,302.0,YES,V7,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+84,CR SC,0.0,NO,V7,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+57,TR SC,15.0,YES,VF,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+58,TR SC,18.0,YES,VF,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+59,MI SC,180.0,YES,VF,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+69,MA SC,302.0,YES,VF,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+70,CR SC,0.0,NO,VF,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+71,TR SC,14.0,YES,VF,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+72,MI SC,17.0,YES,VF,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+73,MA SC,302.0,YES,VF,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+74,CR SC,0.0,NO,VF,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+55,TR SC,20.0,YES,WIZZAIR,LCC,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+56,MI SC,240.0,YES,WIZZAIR,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+134,TR SC,30.0,YES,VY,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+135,MI SC,180.0,YES,VY,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+136,MI SC,298.0,YES,VY,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+137,MA SC,301.0,YES,VY,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+138,CR SC,0.0,NO,VY,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+204,TR SC,30.0,YES,VY,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+205,MI SC,180.0,YES,VY,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+206,MI SC,298.0,YES,VY,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+207,MA SC,301.0,YES,VY,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+208,CR SC,0.0,NO,VY,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+139,TR SC,29.0,YES,VA,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+140,MI SC,298.0,YES,VA,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+141,MA SC,300.0,YES,VA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+142,CR SC,0.0,NO,VA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+143,TR SC,29.0,YES,VA,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+144,MI SC,298.0,YES,VA,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+145,MA SC,300.0,YES,VA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+146,CR SC,0.0,NO,VA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+174,TR SC,29.0,YES,UA,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+175,MI SC,31.0,YES,UA,LEGACY,REBOOKING,REBOOKING,,NO,YES,explicit,explicit_confirmed_by_solution
+176,MI SC,299.0,YES,UA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+177,MA SC,301.0,YES,UA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+178,CR SC,0.0,NO,UA,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+179,TR SC,29.0,YES,UA,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+180,MI SC,31.0,YES,UA,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,YES,explicit_confirmed_by_solution,explicit
+181,MI SC,299.0,YES,UA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+182,MA SC,301.0,YES,UA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+183,CR SC,0.0,NO,UA,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+184,TR SC,14.0,YES,TK,LEGACY,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+185,TR SC,16.0,YES,TK,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+186,MI SC,299.0,YES,TK,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+187,MA SC,301.0,YES,TK,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+188,CR SC,0.0,NO,TK,LEGACY,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+189,TR SC,14.0,YES,TK,LEGACY,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+190,TR SC,16.0,YES,TK,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+191,MI SC,299.0,YES,TK,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+192,MA SC,301.0,YES,TK,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+193,CR SC,0.0,NO,TK,LEGACY,REFUND,REFUND,,YES,YES,explicit,explicit
+194,TR SC,29.0,YES,XQ,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+195,MI SC,299.0,YES,XQ,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+196,MA SC,301.0,YES,XQ,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+197,CR SC,0.0,NO,XQ,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+198,TR SC,29.0,YES,XQ,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+199,MI SC,299.0,YES,XQ,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+200,MA SC,301.0,YES,XQ,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+201,CR SC,0.0,NO,XQ,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+202,TR SC,29.0,YES,5J,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+209,MI SC,179.0,YES,5J,LCC,REBOOKING,REJECTED,NOT ELIGIBLE,NO,NO,explicit,explicit_confirmed_by_solution
+210,MI SC,181.0,YES,5J,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+211,MA SC,301.0,YES,5J,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+212,CR SC,0.0,NO,5J,LCC,REBOOKING,REBOOKING,,YES,YES,explicit,explicit_confirmed_by_solution
+213,TR SC,29.0,YES,5J,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+214,MI SC,179.0,YES,5J,LCC,REFUND,REJECTED,NOT ELIGIBLE,NO,NO,explicit_confirmed_by_solution,explicit
+215,MI SC,181.0,YES,5J,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+216,MA SC,301.0,YES,5J,LCC,REFUND,REFUND,,YES,YES,explicit,explicit
+217,CR SC,0.0,NO,5J,LCC,REFUND,REFUND,,YES,YES,explicit,explicit

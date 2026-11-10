@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-28",
+  "scope": "Streamlit interface and presentation; existing service contracts preserved",
+  "local_platform": "Linux, Python 3.12.14, CPU",
+  "streamlit_version": "1.66.1",
+  "pytest": {"passed": 45, "failed": 0, "new_interface_tests": 11},
+  "ruff": "passed",
+  "ui_execution": "Streamlit AppTest with actual widgets and a service trained from the existing project dataset",
+  "covered": ["explicit confirmation", "independent outcome signals", "fact/message edit invalidation", "withdrawn confirmation", "new-case reset", "Greek cancellation without replacement", "unknown airline review", "missing values remain unknown", "specialist routing", "missing artifacts", "HTML escaping", "plain-text handoff export"],
+  "remote_ci": "Interface matrix configured for Windows and Ubuntu, Python 3.13; see the current GitHub Actions run",
+  "visual_browser_check": "Not completed: browser execution and localhost connectivity were restricted in this host. No visual pass or screenshot is claimed.",
+  "dependencies": "No new dependencies",
+  "notes": "One existing Starlette/httpx deprecation warning in the broader suite; no warning suppression used."
+}
